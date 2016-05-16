@@ -1,0 +1,37 @@
+extends ../layout
+
+block content
+  .page-header
+
+  h2  Hoş Geldin Yönetici :D
+
+  form.form-horizontal(method='POST')
+    input(type='hidden', name='_csrf', value=_csrf)
+    .ui.search
+     .ui.icon.input
+       input.prompt(type='text', placeholder='Search countries...')
+       i.search.icon
+     .results
+
+    .form-group
+     .col-sm-7
+
+  table.ui.very.basic.table
+   thead
+       tr
+       th Profil
+       th İsim
+       th Bölüm E-posta
+       th Github E-posta
+     tbody
+     - each user in users
+       tr
+       td
+        img.ui.avatar.image(class='profile' src='#{user.profile.picture}')
+
+       td #{user.profile.name}
+
+        td #{user.email}
+       if user.github
+        td #{user.email}
+       tr

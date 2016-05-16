@@ -1,0 +1,118 @@
+.giris-button {
+    background: #607d8b !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 423px;
+    height: 80px;
+    margin: auto !important;
+    box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19) !important;
+    border-radius: 1rem !important;
+}
+.avatar.head {
+  position: relative;
+  left: 966px !important;
+  top: 9px;
+}
+.entegre {
+  position: relative;
+  top: 90px;
+  left: 408px;
+  width: 341px;
+
+}
+.entegrasyon {
+  color: #4680AD;
+  position: relative;
+  top: 20px;
+  font-family: initial;
+  font-size: 30px;
+
+}
+.isim {
+  position: relative;
+  top: 13px;
+  left: 949px !important;
+}
+.menu {
+
+    min-height: 3.857143em !important;
+}
+.ui.menu .item.giris {
+  position: absolute;;
+  left: 1200px !important;
+  top: 8px;
+  color: rgb(99, 113, 25) !important;
+
+}
+.ui.menu .item {
+color: rgb(132, 115, 115) !important;
+}
+.ui.simple.item {
+  position: relative;
+  left: 960px !important;
+bottom: 3px;
+}
+.content {
+    height: 92%;
+    width: 100%;
+    display: table;
+}
+
+.bolum-button {
+    background:  hsl(0, 69%, 22%) !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 423px;
+    height: 80px;
+    margin: auto !important;
+    box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19) !important;
+        border-radius: 1rem !important;
+}
+.muh-logo{
+  position: inherit;
+  left: 18px;
+  width: 43px;
+  height: 43px;
+  bottom: 18px;
+
+
+}
+
+.text{
+  position: absolute;
+  left: 69px;
+  bottom: 29px;
+  font-weight: 200 !important;
+
+}
+.bolum {
+  background:  hsl(0, 69%, 22%) !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 423px;
+  height: 80px;
+  margin: auto !important;
+  box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19) !important;
+  border-radius: 1rem !important;
+}
+.imge{
+    position: absolute;
+    left: 38px;
+    bottom: 31px;
+}
+.g-text{
+    position: absolute;
+    left: 67px;
+    bottom: 29px;
+    font-weight: 200 !important;
+
+}

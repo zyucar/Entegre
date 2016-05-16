@@ -1,0 +1,30 @@
+.ui.menu
+     .header.item Entegrasyon
+     a.item(href='/') Anasayfa
+
+
+
+
+            if !user
+                login(class=(title == 'Login') ? 'active' : undefined)
+                  a.item.giris(href='/loginBolum') Giriş Yap
+
+              else
+                dropdown(class=(title == 'Hesab Yönetimi') ? 'active' : undefined)
+                  a.dropdown-toggle(href='#', data-toggle='dropdown')
+                    if user.profile.picture
+
+                        img.ui.avatar.image.head(src='#{user.profile.picture}')
+                        span
+
+                    else
+                      img(src='#{user.gravatar(60)}')
+                  .avatar.isim
+                  .ui.simple.dropdown.item
+                    | #{user.profile.name || user.email || user.id}&nbsp;
+                    i.dropdown.icon
+                    .menu
+                      .item
+                       a(href='/account') Hesabım
+                      .item
+                        a(href='/logout') Çıkış
